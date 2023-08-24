@@ -54,7 +54,7 @@ Item {
     // Draw a translucent background circle under the user picture
     Rectangle {
         anchors.centerIn: imageSource
-        width: imageSource.width * 1.5 + 4 // Subtract to prevent fringing
+        width: (imageSource.width * 1.5) + 4 // Subtract to prevent fringing
         height: width
         radius: width / 2
 
