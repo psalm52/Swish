@@ -54,9 +54,9 @@ Item {
     // Draw a translucent background circle under the user picture
     Rectangle {
         anchors.centerIn: imageSource
-        width: imageSource.width + 8 // Subtract to prevent fringing
+        width: imageSource.width + 15 // Subtract to prevent fringing
         height: width
-        radius: width / 1
+        radius: width / 2
 
         gradient: Gradient {
             GradientStop { position: 0.0; color: "#032490" }
