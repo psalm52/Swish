@@ -56,7 +56,7 @@ Item {
         anchors.centerIn: imageSource
         width: imageSource.width + 8 // Subtract to prevent fringing
         height: width
-        radius: width / 2
+        radius: width / 1
 
         gradient: Gradient {
             GradientStop { position: 0.0; color: "#032490" }
